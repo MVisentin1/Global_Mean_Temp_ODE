@@ -1,0 +1,362 @@
+Euler's Method with step size h=0.08333333333333333
+
+Step 1:
+  Start at (t=0.00, T=288.4000)
+  dT/dt = 0.043570
+  Formula: t_next = t + h = 0.00 + 0.08 = 0.08
+           T_next = T + h * dT/dt = 288.4000 + 0.08*0.043570 = 288.4036
+
+Step 2:
+  Start at (t=0.08, T=288.4036)
+  dT/dt = 0.039432
+  Formula: t_next = t + h = 0.08 + 0.08 = 0.17
+           T_next = T + h * dT/dt = 288.4036 + 0.08*0.039432 = 288.4069
+
+Step 3:
+  Start at (t=0.17, T=288.4069)
+  dT/dt = 0.035687
+  Formula: t_next = t + h = 0.17 + 0.08 = 0.25
+           T_next = T + h * dT/dt = 288.4069 + 0.08*0.035687 = 288.4099
+
+Step 4:
+  Start at (t=0.25, T=288.4099)
+  dT/dt = 0.032298
+  Formula: t_next = t + h = 0.25 + 0.08 = 0.33
+           T_next = T + h * dT/dt = 288.4099 + 0.08*0.032298 = 288.4126
+
+Step 5:
+  Start at (t=0.33, T=288.4126)
+  dT/dt = 0.029230
+  Formula: t_next = t + h = 0.33 + 0.08 = 0.42
+           T_next = T + h * dT/dt = 288.4126 + 0.08*0.029230 = 288.4150
+
+Step 6:
+  Start at (t=0.42, T=288.4150)
+  dT/dt = 0.026454
+  Formula: t_next = t + h = 0.42 + 0.08 = 0.50
+           T_next = T + h * dT/dt = 288.4150 + 0.08*0.026454 = 288.4172
+
+Step 7:
+  Start at (t=0.50, T=288.4172)
+  dT/dt = 0.023941
+  Formula: t_next = t + h = 0.50 + 0.08 = 0.58
+           T_next = T + h * dT/dt = 288.4172 + 0.08*0.023941 = 288.4192
+
+Step 8:
+  Start at (t=0.58, T=288.4192)
+  dT/dt = 0.021667
+  Formula: t_next = t + h = 0.58 + 0.08 = 0.67
+           T_next = T + h * dT/dt = 288.4192 + 0.08*0.021667 = 288.4210
+
+Step 9:
+  Start at (t=0.67, T=288.4210)
+  dT/dt = 0.019609
+  Formula: t_next = t + h = 0.67 + 0.08 = 0.75
+           T_next = T + h * dT/dt = 288.4210 + 0.08*0.019609 = 288.4227
+
+Step 10:
+  Start at (t=0.75, T=288.4227)
+  dT/dt = 0.017746
+  Formula: t_next = t + h = 0.75 + 0.08 = 0.83
+           T_next = T + h * dT/dt = 288.4227 + 0.08*0.017746 = 288.4241
+
+Step 11:
+  Start at (t=0.83, T=288.4241)
+  dT/dt = 0.016060
+  Formula: t_next = t + h = 0.83 + 0.08 = 0.92
+           T_next = T + h * dT/dt = 288.4241 + 0.08*0.016060 = 288.4255
+
+Step 12:
+  Start at (t=0.92, T=288.4255)
+  dT/dt = 0.014535
+  Formula: t_next = t + h = 0.92 + 0.08 = 1.00
+           T_next = T + h * dT/dt = 288.4255 + 0.08*0.014535 = 288.4267
+
+Step 13:
+  Start at (t=1.00, T=288.4267)
+  dT/dt = 0.013154
+  Formula: t_next = t + h = 1.00 + 0.08 = 1.08
+           T_next = T + h * dT/dt = 288.4267 + 0.08*0.013154 = 288.4278
+
+Step 14:
+  Start at (t=1.08, T=288.4278)
+  dT/dt = 0.011904
+  Formula: t_next = t + h = 1.08 + 0.08 = 1.17
+           T_next = T + h * dT/dt = 288.4278 + 0.08*0.011904 = 288.4288
+
+Step 15:
+  Start at (t=1.17, T=288.4288)
+  dT/dt = 0.010773
+  Formula: t_next = t + h = 1.17 + 0.08 = 1.25
+           T_next = T + h * dT/dt = 288.4288 + 0.08*0.010773 = 288.4297
+
+Step 16:
+  Start at (t=1.25, T=288.4297)
+  dT/dt = 0.009750
+  Formula: t_next = t + h = 1.25 + 0.08 = 1.33
+           T_next = T + h * dT/dt = 288.4297 + 0.08*0.009750 = 288.4305
+
+Step 17:
+  Start at (t=1.33, T=288.4305)
+  dT/dt = 0.008824
+  Formula: t_next = t + h = 1.33 + 0.08 = 1.42
+           T_next = T + h * dT/dt = 288.4305 + 0.08*0.008824 = 288.4312
+
+Step 18:
+  Start at (t=1.42, T=288.4312)
+  dT/dt = 0.007986
+  Formula: t_next = t + h = 1.42 + 0.08 = 1.50
+           T_next = T + h * dT/dt = 288.4312 + 0.08*0.007986 = 288.4319
+
+Step 19:
+  Start at (t=1.50, T=288.4319)
+  dT/dt = 0.007227
+  Formula: t_next = t + h = 1.50 + 0.08 = 1.58
+           T_next = T + h * dT/dt = 288.4319 + 0.08*0.007227 = 288.4325
+
+Step 20:
+  Start at (t=1.58, T=288.4325)
+  dT/dt = 0.006540
+  Formula: t_next = t + h = 1.58 + 0.08 = 1.67
+           T_next = T + h * dT/dt = 288.4325 + 0.08*0.006540 = 288.4330
+
+Step 21:
+  Start at (t=1.67, T=288.4330)
+  dT/dt = 0.005919
+  Formula: t_next = t + h = 1.67 + 0.08 = 1.75
+           T_next = T + h * dT/dt = 288.4330 + 0.08*0.005919 = 288.4335
+
+Step 22:
+  Start at (t=1.75, T=288.4335)
+  dT/dt = 0.005357
+  Formula: t_next = t + h = 1.75 + 0.08 = 1.83
+           T_next = T + h * dT/dt = 288.4335 + 0.08*0.005357 = 288.4340
+
+Step 23:
+  Start at (t=1.83, T=288.4340)
+  dT/dt = 0.004848
+  Formula: t_next = t + h = 1.83 + 0.08 = 1.92
+           T_next = T + h * dT/dt = 288.4340 + 0.08*0.004848 = 288.4344
+
+Step 24:
+  Start at (t=1.92, T=288.4344)
+  dT/dt = 0.004387
+  Formula: t_next = t + h = 1.92 + 0.08 = 2.00
+           T_next = T + h * dT/dt = 288.4344 + 0.08*0.004387 = 288.4347
+
+Step 25:
+  Start at (t=2.00, T=288.4347)
+  dT/dt = 0.003970
+  Formula: t_next = t + h = 2.00 + 0.08 = 2.08
+           T_next = T + h * dT/dt = 288.4347 + 0.08*0.003970 = 288.4351
+
+Step 26:
+  Start at (t=2.08, T=288.4351)
+  dT/dt = 0.003593
+  Formula: t_next = t + h = 2.08 + 0.08 = 2.17
+           T_next = T + h * dT/dt = 288.4351 + 0.08*0.003593 = 288.4354
+
+Step 27:
+  Start at (t=2.17, T=288.4354)
+  dT/dt = 0.003252
+  Formula: t_next = t + h = 2.17 + 0.08 = 2.25
+           T_next = T + h * dT/dt = 288.4354 + 0.08*0.003252 = 288.4356
+
+Step 28:
+  Start at (t=2.25, T=288.4356)
+  dT/dt = 0.002943
+  Formula: t_next = t + h = 2.25 + 0.08 = 2.33
+           T_next = T + h * dT/dt = 288.4356 + 0.08*0.002943 = 288.4359
+
+Step 29:
+  Start at (t=2.33, T=288.4359)
+  dT/dt = 0.002663
+  Formula: t_next = t + h = 2.33 + 0.08 = 2.42
+           T_next = T + h * dT/dt = 288.4359 + 0.08*0.002663 = 288.4361
+
+Step 30:
+  Start at (t=2.42, T=288.4361)
+  dT/dt = 0.002410
+  Formula: t_next = t + h = 2.42 + 0.08 = 2.50
+           T_next = T + h * dT/dt = 288.4361 + 0.08*0.002410 = 288.4363
+
+Step 31:
+  Start at (t=2.50, T=288.4363)
+  dT/dt = 0.002181
+  Formula: t_next = t + h = 2.50 + 0.08 = 2.58
+           T_next = T + h * dT/dt = 288.4363 + 0.08*0.002181 = 288.4365
+
+Step 32:
+  Start at (t=2.58, T=288.4365)
+  dT/dt = 0.001974
+  Formula: t_next = t + h = 2.58 + 0.08 = 2.67
+           T_next = T + h * dT/dt = 288.4365 + 0.08*0.001974 = 288.4367
+
+Step 33:
+  Start at (t=2.67, T=288.4367)
+  dT/dt = 0.001786
+  Formula: t_next = t + h = 2.67 + 0.08 = 2.75
+           T_next = T + h * dT/dt = 288.4367 + 0.08*0.001786 = 288.4368
+
+Step 34:
+  Start at (t=2.75, T=288.4368)
+  dT/dt = 0.001617
+  Formula: t_next = t + h = 2.75 + 0.08 = 2.83
+           T_next = T + h * dT/dt = 288.4368 + 0.08*0.001617 = 288.4369
+
+Step 35:
+  Start at (t=2.83, T=288.4369)
+  dT/dt = 0.001463
+  Formula: t_next = t + h = 2.83 + 0.08 = 2.92
+           T_next = T + h * dT/dt = 288.4369 + 0.08*0.001463 = 288.4371
+
+Step 36:
+  Start at (t=2.92, T=288.4371)
+  dT/dt = 0.001324
+  Formula: t_next = t + h = 2.92 + 0.08 = 3.00
+           T_next = T + h * dT/dt = 288.4371 + 0.08*0.001324 = 288.4372
+
+Step 37:
+  Start at (t=3.00, T=288.4372)
+  dT/dt = 0.001198
+  Formula: t_next = t + h = 3.00 + 0.08 = 3.08
+           T_next = T + h * dT/dt = 288.4372 + 0.08*0.001198 = 288.4373
+
+Step 38:
+  Start at (t=3.08, T=288.4373)
+  dT/dt = 0.001085
+  Formula: t_next = t + h = 3.08 + 0.08 = 3.17
+           T_next = T + h * dT/dt = 288.4373 + 0.08*0.001085 = 288.4374
+
+Step 39:
+  Start at (t=3.17, T=288.4374)
+  dT/dt = 0.000981
+  Formula: t_next = t + h = 3.17 + 0.08 = 3.25
+           T_next = T + h * dT/dt = 288.4374 + 0.08*0.000981 = 288.4374
+
+Step 40:
+  Start at (t=3.25, T=288.4374)
+  dT/dt = 0.000888
+  Formula: t_next = t + h = 3.25 + 0.08 = 3.33
+           T_next = T + h * dT/dt = 288.4374 + 0.08*0.000888 = 288.4375
+
+Step 41:
+  Start at (t=3.33, T=288.4375)
+  dT/dt = 0.000804
+  Formula: t_next = t + h = 3.33 + 0.08 = 3.42
+           T_next = T + h * dT/dt = 288.4375 + 0.08*0.000804 = 288.4376
+
+Step 42:
+  Start at (t=3.42, T=288.4376)
+  dT/dt = 0.000727
+  Formula: t_next = t + h = 3.42 + 0.08 = 3.50
+           T_next = T + h * dT/dt = 288.4376 + 0.08*0.000727 = 288.4376
+
+Step 43:
+  Start at (t=3.50, T=288.4376)
+  dT/dt = 0.000658
+  Formula: t_next = t + h = 3.50 + 0.08 = 3.58
+           T_next = T + h * dT/dt = 288.4376 + 0.08*0.000658 = 288.4377
+
+Step 44:
+  Start at (t=3.58, T=288.4377)
+  dT/dt = 0.000596
+  Formula: t_next = t + h = 3.58 + 0.08 = 3.67
+           T_next = T + h * dT/dt = 288.4377 + 0.08*0.000596 = 288.4378
+
+Step 45:
+  Start at (t=3.67, T=288.4378)
+  dT/dt = 0.000539
+  Formula: t_next = t + h = 3.67 + 0.08 = 3.75
+           T_next = T + h * dT/dt = 288.4378 + 0.08*0.000539 = 288.4378
+
+Step 46:
+  Start at (t=3.75, T=288.4378)
+  dT/dt = 0.000488
+  Formula: t_next = t + h = 3.75 + 0.08 = 3.83
+           T_next = T + h * dT/dt = 288.4378 + 0.08*0.000488 = 288.4378
+
+Step 47:
+  Start at (t=3.83, T=288.4378)
+  dT/dt = 0.000442
+  Formula: t_next = t + h = 3.83 + 0.08 = 3.92
+           T_next = T + h * dT/dt = 288.4378 + 0.08*0.000442 = 288.4379
+
+Step 48:
+  Start at (t=3.92, T=288.4379)
+  dT/dt = 0.000400
+  Formula: t_next = t + h = 3.92 + 0.08 = 4.00
+           T_next = T + h * dT/dt = 288.4379 + 0.08*0.000400 = 288.4379
+
+Step 49:
+  Start at (t=4.00, T=288.4379)
+  dT/dt = 0.000362
+  Formula: t_next = t + h = 4.00 + 0.08 = 4.08
+           T_next = T + h * dT/dt = 288.4379 + 0.08*0.000362 = 288.4379
+
+Step 50:
+  Start at (t=4.08, T=288.4379)
+  dT/dt = 0.000327
+  Formula: t_next = t + h = 4.08 + 0.08 = 4.17
+           T_next = T + h * dT/dt = 288.4379 + 0.08*0.000327 = 288.4380
+
+Step 51:
+  Start at (t=4.17, T=288.4380)
+  dT/dt = 0.000296
+  Formula: t_next = t + h = 4.17 + 0.08 = 4.25
+           T_next = T + h * dT/dt = 288.4380 + 0.08*0.000296 = 288.4380
+
+Step 52:
+  Start at (t=4.25, T=288.4380)
+  dT/dt = 0.000268
+  Formula: t_next = t + h = 4.25 + 0.08 = 4.33
+           T_next = T + h * dT/dt = 288.4380 + 0.08*0.000268 = 288.4380
+
+Step 53:
+  Start at (t=4.33, T=288.4380)
+  dT/dt = 0.000243
+  Formula: t_next = t + h = 4.33 + 0.08 = 4.42
+           T_next = T + h * dT/dt = 288.4380 + 0.08*0.000243 = 288.4380
+
+Step 54:
+  Start at (t=4.42, T=288.4380)
+  dT/dt = 0.000220
+  Formula: t_next = t + h = 4.42 + 0.08 = 4.50
+           T_next = T + h * dT/dt = 288.4380 + 0.08*0.000220 = 288.4380
+
+Step 55:
+  Start at (t=4.50, T=288.4380)
+  dT/dt = 0.000199
+  Formula: t_next = t + h = 4.50 + 0.08 = 4.58
+           T_next = T + h * dT/dt = 288.4380 + 0.08*0.000199 = 288.4381
+
+Step 56:
+  Start at (t=4.58, T=288.4381)
+  dT/dt = 0.000180
+  Formula: t_next = t + h = 4.58 + 0.08 = 4.67
+           T_next = T + h * dT/dt = 288.4381 + 0.08*0.000180 = 288.4381
+
+Step 57:
+  Start at (t=4.67, T=288.4381)
+  dT/dt = 0.000163
+  Formula: t_next = t + h = 4.67 + 0.08 = 4.75
+           T_next = T + h * dT/dt = 288.4381 + 0.08*0.000163 = 288.4381
+
+Step 58:
+  Start at (t=4.75, T=288.4381)
+  dT/dt = 0.000147
+  Formula: t_next = t + h = 4.75 + 0.08 = 4.83
+           T_next = T + h * dT/dt = 288.4381 + 0.08*0.000147 = 288.4381
+
+Step 59:
+  Start at (t=4.83, T=288.4381)
+  dT/dt = 0.000133
+  Formula: t_next = t + h = 4.83 + 0.08 = 4.92
+           T_next = T + h * dT/dt = 288.4381 + 0.08*0.000133 = 288.4381
+
+Step 60:
+  Start at (t=4.92, T=288.4381)
+  dT/dt = 0.000121
+  Formula: t_next = t + h = 4.92 + 0.08 = 5.00
+           T_next = T + h * dT/dt = 288.4381 + 0.08*0.000121 = 288.4381
+

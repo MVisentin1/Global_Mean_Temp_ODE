@@ -1,0 +1,542 @@
+Heun's Method with step size h=0.08333
+
+Step 1:
+  Point i: (t=0.00, T=288.4000)
+  Slope at i = 0.043570
+  Estimate T at next point = 288.4000 + 0.08*0.043570 = 288.4036
+  Slope at i+1 (using T_est) = 0.039432
+  Average slope = (slope_i + slope_i+1)/2 = 0.041501
+  Point i+1: t = 0.00 + 0.08 = 0.08
+             T = 288.4000 + 0.08*0.041501 = 288.4035
+
+Step 2:
+  Point i: (t=0.08, T=288.4035)
+  Slope at i = 0.039629
+  Estimate T at next point = 288.4035 + 0.08*0.039629 = 288.4068
+  Slope at i+1 (using T_est) = 0.035865
+  Average slope = (slope_i + slope_i+1)/2 = 0.037747
+  Point i+1: t = 0.08 + 0.08 = 0.17
+             T = 288.4035 + 0.08*0.037747 = 288.4066
+
+Step 3:
+  Point i: (t=0.17, T=288.4066)
+  Slope at i = 0.036044
+  Estimate T at next point = 288.4066 + 0.08*0.036044 = 288.4096
+  Slope at i+1 (using T_est) = 0.032621
+  Average slope = (slope_i + slope_i+1)/2 = 0.034332
+  Point i+1: t = 0.17 + 0.08 = 0.25
+             T = 288.4066 + 0.08*0.034332 = 288.4095
+
+Step 4:
+  Point i: (t=0.25, T=288.4095)
+  Slope at i = 0.032783
+  Estimate T at next point = 288.4095 + 0.08*0.032783 = 288.4122
+  Slope at i+1 (using T_est) = 0.029669
+  Average slope = (slope_i + slope_i+1)/2 = 0.031226
+  Point i+1: t = 0.25 + 0.08 = 0.33
+             T = 288.4095 + 0.08*0.031226 = 288.4121
+
+Step 5:
+  Point i: (t=0.33, T=288.4121)
+  Slope at i = 0.029817
+  Estimate T at next point = 288.4121 + 0.08*0.029817 = 288.4146
+  Slope at i+1 (using T_est) = 0.026985
+  Average slope = (slope_i + slope_i+1)/2 = 0.028401
+  Point i+1: t = 0.33 + 0.08 = 0.42
+             T = 288.4121 + 0.08*0.028401 = 288.4144
+
+Step 6:
+  Point i: (t=0.42, T=288.4144)
+  Slope at i = 0.027120
+  Estimate T at next point = 288.4144 + 0.08*0.027120 = 288.4167
+  Slope at i+1 (using T_est) = 0.024544
+  Average slope = (slope_i + slope_i+1)/2 = 0.025832
+  Point i+1: t = 0.42 + 0.08 = 0.50
+             T = 288.4144 + 0.08*0.025832 = 288.4166
+
+Step 7:
+  Point i: (t=0.50, T=288.4166)
+  Slope at i = 0.024666
+  Estimate T at next point = 288.4166 + 0.08*0.024666 = 288.4186
+  Slope at i+1 (using T_est) = 0.022323
+  Average slope = (slope_i + slope_i+1)/2 = 0.023494
+  Point i+1: t = 0.50 + 0.08 = 0.58
+             T = 288.4166 + 0.08*0.023494 = 288.4185
+
+Step 8:
+  Point i: (t=0.58, T=288.4185)
+  Slope at i = 0.022434
+  Estimate T at next point = 288.4185 + 0.08*0.022434 = 288.4204
+  Slope at i+1 (using T_est) = 0.020303
+  Average slope = (slope_i + slope_i+1)/2 = 0.021369
+  Point i+1: t = 0.58 + 0.08 = 0.67
+             T = 288.4185 + 0.08*0.021369 = 288.4203
+
+Step 9:
+  Point i: (t=0.67, T=288.4203)
+  Slope at i = 0.020404
+  Estimate T at next point = 288.4203 + 0.08*0.020404 = 288.4220
+  Slope at i+1 (using T_est) = 0.018466
+  Average slope = (slope_i + slope_i+1)/2 = 0.019435
+  Point i+1: t = 0.67 + 0.08 = 0.75
+             T = 288.4203 + 0.08*0.019435 = 288.4219
+
+Step 10:
+  Point i: (t=0.75, T=288.4219)
+  Slope at i = 0.018558
+  Estimate T at next point = 288.4219 + 0.08*0.018558 = 288.4235
+  Slope at i+1 (using T_est) = 0.016795
+  Average slope = (slope_i + slope_i+1)/2 = 0.017677
+  Point i+1: t = 0.75 + 0.08 = 0.83
+             T = 288.4219 + 0.08*0.017677 = 288.4234
+
+Step 11:
+  Point i: (t=0.83, T=288.4234)
+  Slope at i = 0.016879
+  Estimate T at next point = 288.4234 + 0.08*0.016879 = 288.4248
+  Slope at i+1 (using T_est) = 0.015276
+  Average slope = (slope_i + slope_i+1)/2 = 0.016077
+  Point i+1: t = 0.83 + 0.08 = 0.92
+             T = 288.4234 + 0.08*0.016077 = 288.4248
+
+Step 12:
+  Point i: (t=0.92, T=288.4248)
+  Slope at i = 0.015352
+  Estimate T at next point = 288.4248 + 0.08*0.015352 = 288.4260
+  Slope at i+1 (using T_est) = 0.013894
+  Average slope = (slope_i + slope_i+1)/2 = 0.014623
+  Point i+1: t = 0.92 + 0.08 = 1.00
+             T = 288.4248 + 0.08*0.014623 = 288.4260
+
+Step 13:
+  Point i: (t=1.00, T=288.4260)
+  Slope at i = 0.013963
+  Estimate T at next point = 288.4260 + 0.08*0.013963 = 288.4271
+  Slope at i+1 (using T_est) = 0.012636
+  Average slope = (slope_i + slope_i+1)/2 = 0.013300
+  Point i+1: t = 1.00 + 0.08 = 1.08
+             T = 288.4260 + 0.08*0.013300 = 288.4271
+
+Step 14:
+  Point i: (t=1.08, T=288.4271)
+  Slope at i = 0.012699
+  Estimate T at next point = 288.4271 + 0.08*0.012699 = 288.4281
+  Slope at i+1 (using T_est) = 0.011493
+  Average slope = (slope_i + slope_i+1)/2 = 0.012096
+  Point i+1: t = 1.08 + 0.08 = 1.17
+             T = 288.4271 + 0.08*0.012096 = 288.4281
+
+Step 15:
+  Point i: (t=1.17, T=288.4281)
+  Slope at i = 0.011550
+  Estimate T at next point = 288.4281 + 0.08*0.011550 = 288.4291
+  Slope at i+1 (using T_est) = 0.010453
+  Average slope = (slope_i + slope_i+1)/2 = 0.011002
+  Point i+1: t = 1.17 + 0.08 = 1.25
+             T = 288.4281 + 0.08*0.011002 = 288.4290
+
+Step 16:
+  Point i: (t=1.25, T=288.4290)
+  Slope at i = 0.010505
+  Estimate T at next point = 288.4290 + 0.08*0.010505 = 288.4299
+  Slope at i+1 (using T_est) = 0.009507
+  Average slope = (slope_i + slope_i+1)/2 = 0.010006
+  Point i+1: t = 1.25 + 0.08 = 1.33
+             T = 288.4290 + 0.08*0.010006 = 288.4298
+
+Step 17:
+  Point i: (t=1.33, T=288.4298)
+  Slope at i = 0.009555
+  Estimate T at next point = 288.4298 + 0.08*0.009555 = 288.4306
+  Slope at i+1 (using T_est) = 0.008647
+  Average slope = (slope_i + slope_i+1)/2 = 0.009101
+  Point i+1: t = 1.33 + 0.08 = 1.42
+             T = 288.4298 + 0.08*0.009101 = 288.4306
+
+Step 18:
+  Point i: (t=1.42, T=288.4306)
+  Slope at i = 0.008690
+  Estimate T at next point = 288.4306 + 0.08*0.008690 = 288.4313
+  Slope at i+1 (using T_est) = 0.007864
+  Average slope = (slope_i + slope_i+1)/2 = 0.008277
+  Point i+1: t = 1.42 + 0.08 = 1.50
+             T = 288.4306 + 0.08*0.008277 = 288.4313
+
+Step 19:
+  Point i: (t=1.50, T=288.4313)
+  Slope at i = 0.007904
+  Estimate T at next point = 288.4313 + 0.08*0.007904 = 288.4320
+  Slope at i+1 (using T_est) = 0.007153
+  Average slope = (slope_i + slope_i+1)/2 = 0.007528
+  Point i+1: t = 1.50 + 0.08 = 1.58
+             T = 288.4313 + 0.08*0.007528 = 288.4319
+
+Step 20:
+  Point i: (t=1.58, T=288.4319)
+  Slope at i = 0.007188
+  Estimate T at next point = 288.4319 + 0.08*0.007188 = 288.4325
+  Slope at i+1 (using T_est) = 0.006506
+  Average slope = (slope_i + slope_i+1)/2 = 0.006847
+  Point i+1: t = 1.58 + 0.08 = 1.67
+             T = 288.4319 + 0.08*0.006847 = 288.4325
+
+Step 21:
+  Point i: (t=1.67, T=288.4325)
+  Slope at i = 0.006538
+  Estimate T at next point = 288.4325 + 0.08*0.006538 = 288.4330
+  Slope at i+1 (using T_est) = 0.005917
+  Average slope = (slope_i + slope_i+1)/2 = 0.006227
+  Point i+1: t = 1.67 + 0.08 = 1.75
+             T = 288.4325 + 0.08*0.006227 = 288.4330
+
+Step 22:
+  Point i: (t=1.75, T=288.4330)
+  Slope at i = 0.005946
+  Estimate T at next point = 288.4330 + 0.08*0.005946 = 288.4335
+  Slope at i+1 (using T_est) = 0.005381
+  Average slope = (slope_i + slope_i+1)/2 = 0.005664
+  Point i+1: t = 1.75 + 0.08 = 1.83
+             T = 288.4330 + 0.08*0.005664 = 288.4335
+
+Step 23:
+  Point i: (t=1.83, T=288.4335)
+  Slope at i = 0.005408
+  Estimate T at next point = 288.4335 + 0.08*0.005408 = 288.4339
+  Slope at i+1 (using T_est) = 0.004894
+  Average slope = (slope_i + slope_i+1)/2 = 0.005151
+  Point i+1: t = 1.83 + 0.08 = 1.92
+             T = 288.4335 + 0.08*0.005151 = 288.4339
+
+Step 24:
+  Point i: (t=1.92, T=288.4339)
+  Slope at i = 0.004919
+  Estimate T at next point = 288.4339 + 0.08*0.004919 = 288.4343
+  Slope at i+1 (using T_est) = 0.004452
+  Average slope = (slope_i + slope_i+1)/2 = 0.004685
+  Point i+1: t = 1.92 + 0.08 = 2.00
+             T = 288.4339 + 0.08*0.004685 = 288.4343
+
+Step 25:
+  Point i: (t=2.00, T=288.4343)
+  Slope at i = 0.004474
+  Estimate T at next point = 288.4343 + 0.08*0.004474 = 288.4347
+  Slope at i+1 (using T_est) = 0.004049
+  Average slope = (slope_i + slope_i+1)/2 = 0.004261
+  Point i+1: t = 2.00 + 0.08 = 2.08
+             T = 288.4343 + 0.08*0.004261 = 288.4347
+
+Step 26:
+  Point i: (t=2.08, T=288.4347)
+  Slope at i = 0.004069
+  Estimate T at next point = 288.4347 + 0.08*0.004069 = 288.4350
+  Slope at i+1 (using T_est) = 0.003682
+  Average slope = (slope_i + slope_i+1)/2 = 0.003876
+  Point i+1: t = 2.08 + 0.08 = 2.17
+             T = 288.4347 + 0.08*0.003876 = 288.4350
+
+Step 27:
+  Point i: (t=2.17, T=288.4350)
+  Slope at i = 0.003701
+  Estimate T at next point = 288.4350 + 0.08*0.003701 = 288.4353
+  Slope at i+1 (using T_est) = 0.003349
+  Average slope = (slope_i + slope_i+1)/2 = 0.003525
+  Point i+1: t = 2.17 + 0.08 = 2.25
+             T = 288.4350 + 0.08*0.003525 = 288.4353
+
+Step 28:
+  Point i: (t=2.25, T=288.4353)
+  Slope at i = 0.003366
+  Estimate T at next point = 288.4353 + 0.08*0.003366 = 288.4356
+  Slope at i+1 (using T_est) = 0.003046
+  Average slope = (slope_i + slope_i+1)/2 = 0.003206
+  Point i+1: t = 2.25 + 0.08 = 2.33
+             T = 288.4353 + 0.08*0.003206 = 288.4355
+
+Step 29:
+  Point i: (t=2.33, T=288.4355)
+  Slope at i = 0.003061
+  Estimate T at next point = 288.4355 + 0.08*0.003061 = 288.4358
+  Slope at i+1 (using T_est) = 0.002770
+  Average slope = (slope_i + slope_i+1)/2 = 0.002916
+  Point i+1: t = 2.33 + 0.08 = 2.42
+             T = 288.4355 + 0.08*0.002916 = 288.4358
+
+Step 30:
+  Point i: (t=2.42, T=288.4358)
+  Slope at i = 0.002784
+  Estimate T at next point = 288.4358 + 0.08*0.002784 = 288.4360
+  Slope at i+1 (using T_est) = 0.002520
+  Average slope = (slope_i + slope_i+1)/2 = 0.002652
+  Point i+1: t = 2.42 + 0.08 = 2.50
+             T = 288.4358 + 0.08*0.002652 = 288.4360
+
+Step 31:
+  Point i: (t=2.50, T=288.4360)
+  Slope at i = 0.002532
+  Estimate T at next point = 288.4360 + 0.08*0.002532 = 288.4362
+  Slope at i+1 (using T_est) = 0.002292
+  Average slope = (slope_i + slope_i+1)/2 = 0.002412
+  Point i+1: t = 2.50 + 0.08 = 2.58
+             T = 288.4360 + 0.08*0.002412 = 288.4362
+
+Step 32:
+  Point i: (t=2.58, T=288.4362)
+  Slope at i = 0.002303
+  Estimate T at next point = 288.4362 + 0.08*0.002303 = 288.4364
+  Slope at i+1 (using T_est) = 0.002084
+  Average slope = (slope_i + slope_i+1)/2 = 0.002194
+  Point i+1: t = 2.58 + 0.08 = 2.67
+             T = 288.4362 + 0.08*0.002194 = 288.4364
+
+Step 33:
+  Point i: (t=2.67, T=288.4364)
+  Slope at i = 0.002095
+  Estimate T at next point = 288.4364 + 0.08*0.002095 = 288.4366
+  Slope at i+1 (using T_est) = 0.001896
+  Average slope = (slope_i + slope_i+1)/2 = 0.001995
+  Point i+1: t = 2.67 + 0.08 = 2.75
+             T = 288.4364 + 0.08*0.001995 = 288.4366
+
+Step 34:
+  Point i: (t=2.75, T=288.4366)
+  Slope at i = 0.001905
+  Estimate T at next point = 288.4366 + 0.08*0.001905 = 288.4367
+  Slope at i+1 (using T_est) = 0.001724
+  Average slope = (slope_i + slope_i+1)/2 = 0.001815
+  Point i+1: t = 2.75 + 0.08 = 2.83
+             T = 288.4366 + 0.08*0.001815 = 288.4367
+
+Step 35:
+  Point i: (t=2.83, T=288.4367)
+  Slope at i = 0.001733
+  Estimate T at next point = 288.4367 + 0.08*0.001733 = 288.4368
+  Slope at i+1 (using T_est) = 0.001568
+  Average slope = (slope_i + slope_i+1)/2 = 0.001650
+  Point i+1: t = 2.83 + 0.08 = 2.92
+             T = 288.4367 + 0.08*0.001650 = 288.4368
+
+Step 36:
+  Point i: (t=2.92, T=288.4368)
+  Slope at i = 0.001576
+  Estimate T at next point = 288.4368 + 0.08*0.001576 = 288.4370
+  Slope at i+1 (using T_est) = 0.001426
+  Average slope = (slope_i + slope_i+1)/2 = 0.001501
+  Point i+1: t = 2.92 + 0.08 = 3.00
+             T = 288.4368 + 0.08*0.001501 = 288.4370
+
+Step 37:
+  Point i: (t=3.00, T=288.4370)
+  Slope at i = 0.001433
+  Estimate T at next point = 288.4370 + 0.08*0.001433 = 288.4371
+  Slope at i+1 (using T_est) = 0.001297
+  Average slope = (slope_i + slope_i+1)/2 = 0.001365
+  Point i+1: t = 3.00 + 0.08 = 3.08
+             T = 288.4370 + 0.08*0.001365 = 288.4371
+
+Step 38:
+  Point i: (t=3.08, T=288.4371)
+  Slope at i = 0.001304
+  Estimate T at next point = 288.4371 + 0.08*0.001304 = 288.4372
+  Slope at i+1 (using T_est) = 0.001180
+  Average slope = (slope_i + slope_i+1)/2 = 0.001242
+  Point i+1: t = 3.08 + 0.08 = 3.17
+             T = 288.4371 + 0.08*0.001242 = 288.4372
+
+Step 39:
+  Point i: (t=3.17, T=288.4372)
+  Slope at i = 0.001186
+  Estimate T at next point = 288.4372 + 0.08*0.001186 = 288.4373
+  Slope at i+1 (using T_est) = 0.001073
+  Average slope = (slope_i + slope_i+1)/2 = 0.001129
+  Point i+1: t = 3.17 + 0.08 = 3.25
+             T = 288.4372 + 0.08*0.001129 = 288.4373
+
+Step 40:
+  Point i: (t=3.25, T=288.4373)
+  Slope at i = 0.001078
+  Estimate T at next point = 288.4373 + 0.08*0.001078 = 288.4374
+  Slope at i+1 (using T_est) = 0.000976
+  Average slope = (slope_i + slope_i+1)/2 = 0.001027
+  Point i+1: t = 3.25 + 0.08 = 3.33
+             T = 288.4373 + 0.08*0.001027 = 288.4374
+
+Step 41:
+  Point i: (t=3.33, T=288.4374)
+  Slope at i = 0.000981
+  Estimate T at next point = 288.4374 + 0.08*0.000981 = 288.4374
+  Slope at i+1 (using T_est) = 0.000888
+  Average slope = (slope_i + slope_i+1)/2 = 0.000934
+  Point i+1: t = 3.33 + 0.08 = 3.42
+             T = 288.4374 + 0.08*0.000934 = 288.4374
+
+Step 42:
+  Point i: (t=3.42, T=288.4374)
+  Slope at i = 0.000892
+  Estimate T at next point = 288.4374 + 0.08*0.000892 = 288.4375
+  Slope at i+1 (using T_est) = 0.000807
+  Average slope = (slope_i + slope_i+1)/2 = 0.000850
+  Point i+1: t = 3.42 + 0.08 = 3.50
+             T = 288.4374 + 0.08*0.000850 = 288.4375
+
+Step 43:
+  Point i: (t=3.50, T=288.4375)
+  Slope at i = 0.000811
+  Estimate T at next point = 288.4375 + 0.08*0.000811 = 288.4376
+  Slope at i+1 (using T_est) = 0.000734
+  Average slope = (slope_i + slope_i+1)/2 = 0.000773
+  Point i+1: t = 3.50 + 0.08 = 3.58
+             T = 288.4375 + 0.08*0.000773 = 288.4376
+
+Step 44:
+  Point i: (t=3.58, T=288.4376)
+  Slope at i = 0.000738
+  Estimate T at next point = 288.4376 + 0.08*0.000738 = 288.4376
+  Slope at i+1 (using T_est) = 0.000668
+  Average slope = (slope_i + slope_i+1)/2 = 0.000703
+  Point i+1: t = 3.58 + 0.08 = 3.67
+             T = 288.4376 + 0.08*0.000703 = 288.4376
+
+Step 45:
+  Point i: (t=3.67, T=288.4376)
+  Slope at i = 0.000671
+  Estimate T at next point = 288.4376 + 0.08*0.000671 = 288.4377
+  Slope at i+1 (using T_est) = 0.000607
+  Average slope = (slope_i + slope_i+1)/2 = 0.000639
+  Point i+1: t = 3.67 + 0.08 = 3.75
+             T = 288.4376 + 0.08*0.000639 = 288.4377
+
+Step 46:
+  Point i: (t=3.75, T=288.4377)
+  Slope at i = 0.000610
+  Estimate T at next point = 288.4377 + 0.08*0.000610 = 288.4377
+  Slope at i+1 (using T_est) = 0.000552
+  Average slope = (slope_i + slope_i+1)/2 = 0.000581
+  Point i+1: t = 3.75 + 0.08 = 3.83
+             T = 288.4377 + 0.08*0.000581 = 288.4377
+
+Step 47:
+  Point i: (t=3.83, T=288.4377)
+  Slope at i = 0.000555
+  Estimate T at next point = 288.4377 + 0.08*0.000555 = 288.4378
+  Slope at i+1 (using T_est) = 0.000502
+  Average slope = (slope_i + slope_i+1)/2 = 0.000529
+  Point i+1: t = 3.83 + 0.08 = 3.92
+             T = 288.4377 + 0.08*0.000529 = 288.4378
+
+Step 48:
+  Point i: (t=3.92, T=288.4378)
+  Slope at i = 0.000505
+  Estimate T at next point = 288.4378 + 0.08*0.000505 = 288.4378
+  Slope at i+1 (using T_est) = 0.000457
+  Average slope = (slope_i + slope_i+1)/2 = 0.000481
+  Point i+1: t = 3.92 + 0.08 = 4.00
+             T = 288.4378 + 0.08*0.000481 = 288.4378
+
+Step 49:
+  Point i: (t=4.00, T=288.4378)
+  Slope at i = 0.000459
+  Estimate T at next point = 288.4378 + 0.08*0.000459 = 288.4379
+  Slope at i+1 (using T_est) = 0.000416
+  Average slope = (slope_i + slope_i+1)/2 = 0.000437
+  Point i+1: t = 4.00 + 0.08 = 4.08
+             T = 288.4378 + 0.08*0.000437 = 288.4379
+
+Step 50:
+  Point i: (t=4.08, T=288.4379)
+  Slope at i = 0.000418
+  Estimate T at next point = 288.4379 + 0.08*0.000418 = 288.4379
+  Slope at i+1 (using T_est) = 0.000378
+  Average slope = (slope_i + slope_i+1)/2 = 0.000398
+  Point i+1: t = 4.08 + 0.08 = 4.17
+             T = 288.4379 + 0.08*0.000398 = 288.4379
+
+Step 51:
+  Point i: (t=4.17, T=288.4379)
+  Slope at i = 0.000380
+  Estimate T at next point = 288.4379 + 0.08*0.000380 = 288.4379
+  Slope at i+1 (using T_est) = 0.000344
+  Average slope = (slope_i + slope_i+1)/2 = 0.000362
+  Point i+1: t = 4.17 + 0.08 = 4.25
+             T = 288.4379 + 0.08*0.000362 = 288.4379
+
+Step 52:
+  Point i: (t=4.25, T=288.4379)
+  Slope at i = 0.000345
+  Estimate T at next point = 288.4379 + 0.08*0.000345 = 288.4379
+  Slope at i+1 (using T_est) = 0.000313
+  Average slope = (slope_i + slope_i+1)/2 = 0.000329
+  Point i+1: t = 4.25 + 0.08 = 4.33
+             T = 288.4379 + 0.08*0.000329 = 288.4379
+
+Step 53:
+  Point i: (t=4.33, T=288.4379)
+  Slope at i = 0.000314
+  Estimate T at next point = 288.4379 + 0.08*0.000314 = 288.4380
+  Slope at i+1 (using T_est) = 0.000284
+  Average slope = (slope_i + slope_i+1)/2 = 0.000299
+  Point i+1: t = 4.33 + 0.08 = 4.42
+             T = 288.4379 + 0.08*0.000299 = 288.4380
+
+Step 54:
+  Point i: (t=4.42, T=288.4380)
+  Slope at i = 0.000286
+  Estimate T at next point = 288.4380 + 0.08*0.000286 = 288.4380
+  Slope at i+1 (using T_est) = 0.000259
+  Average slope = (slope_i + slope_i+1)/2 = 0.000272
+  Point i+1: t = 4.42 + 0.08 = 4.50
+             T = 288.4380 + 0.08*0.000272 = 288.4380
+
+Step 55:
+  Point i: (t=4.50, T=288.4380)
+  Slope at i = 0.000260
+  Estimate T at next point = 288.4380 + 0.08*0.000260 = 288.4380
+  Slope at i+1 (using T_est) = 0.000235
+  Average slope = (slope_i + slope_i+1)/2 = 0.000248
+  Point i+1: t = 4.50 + 0.08 = 4.58
+             T = 288.4380 + 0.08*0.000248 = 288.4380
+
+Step 56:
+  Point i: (t=4.58, T=288.4380)
+  Slope at i = 0.000236
+  Estimate T at next point = 288.4380 + 0.08*0.000236 = 288.4380
+  Slope at i+1 (using T_est) = 0.000214
+  Average slope = (slope_i + slope_i+1)/2 = 0.000225
+  Point i+1: t = 4.58 + 0.08 = 4.67
+             T = 288.4380 + 0.08*0.000225 = 288.4380
+
+Step 57:
+  Point i: (t=4.67, T=288.4380)
+  Slope at i = 0.000215
+  Estimate T at next point = 288.4380 + 0.08*0.000215 = 288.4381
+  Slope at i+1 (using T_est) = 0.000195
+  Average slope = (slope_i + slope_i+1)/2 = 0.000205
+  Point i+1: t = 4.67 + 0.08 = 4.75
+             T = 288.4380 + 0.08*0.000205 = 288.4381
+
+Step 58:
+  Point i: (t=4.75, T=288.4381)
+  Slope at i = 0.000196
+  Estimate T at next point = 288.4381 + 0.08*0.000196 = 288.4381
+  Slope at i+1 (using T_est) = 0.000177
+  Average slope = (slope_i + slope_i+1)/2 = 0.000186
+  Point i+1: t = 4.75 + 0.08 = 4.83
+             T = 288.4381 + 0.08*0.000186 = 288.4381
+
+Step 59:
+  Point i: (t=4.83, T=288.4381)
+  Slope at i = 0.000178
+  Estimate T at next point = 288.4381 + 0.08*0.000178 = 288.4381
+  Slope at i+1 (using T_est) = 0.000161
+  Average slope = (slope_i + slope_i+1)/2 = 0.000169
+  Point i+1: t = 4.83 + 0.08 = 4.92
+             T = 288.4381 + 0.08*0.000169 = 288.4381
+
+Step 60:
+  Point i: (t=4.92, T=288.4381)
+  Slope at i = 0.000162
+  Estimate T at next point = 288.4381 + 0.08*0.000162 = 288.4381
+  Slope at i+1 (using T_est) = 0.000146
+  Average slope = (slope_i + slope_i+1)/2 = 0.000154
+  Point i+1: t = 4.92 + 0.08 = 5.00
+             T = 288.4381 + 0.08*0.000154 = 288.4381
+
