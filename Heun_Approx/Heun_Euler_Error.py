@@ -6,6 +6,7 @@ from numpy.ma.core import divide
 from Euler_Approx.Euler_Approx import euler_method
 from Heun_Approx.Heun_Approx_Tool import heun_method
 
+# --- Returns relative error array for plotting ---
 def relative_error(euler_values, heun_values):
     error = []
     for i in range (len(euler_values)):
